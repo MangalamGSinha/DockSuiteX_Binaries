@@ -16,4 +16,4 @@ set "JAVA_OPTS=%JAVA_OPTS%"
 set "INSTALL_DIR=%~dp0%"
 set "CLASSPATH=%INSTALL_DIR%/bin/p2rank.jar;%INSTALL_DIR%/bin/lib/*"
 
-"%JAVA_HOME%\bin\java.exe" %JAVA_OPTS% -cp "%CLASSPATH%" cz.siret.prank.program.Main %* 
+"%INSTALL_DIR%..\java\bin\java.exe" %JAVA_OPTS% -cp "%CLASSPATH%" cz.siret.prank.program.Main %*
